@@ -1,0 +1,18 @@
+Is a abstract data type
+doesn't have to be a int
+Key/value pairs - data types don't have to match
+Optimized for  retrieval (when you now the key)
+Assosciative array is one type of hash table
+
+HASHING
+hashing maps key of any type to an int
+In Java, has function is Object.hasCode()
+Collision occurs when more than one value has the same hashed value
+
+LOAD FACTOR
+Tells us how full a hash table is
+Load factor = # of item/capacity = size/capacity
+Load factor is used to decide when to resize the array backing the hash table
+Don't want load factor too low
+Don't want load factor too high
+Can play a role in determining the time complexity for retrieval
