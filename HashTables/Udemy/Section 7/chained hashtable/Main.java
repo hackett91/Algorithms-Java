@@ -1,3 +1,5 @@
+import java.util.LinkedList;
+import java.util.ListIterator;
 public class Main{
 
   public static void main(String[] args) {
@@ -6,7 +8,6 @@ public class Main{
     Employee johnDoe = new Employee("John", "Doe", 4567);
     Employee marySmith = new Employee("Mary", "Smith", 22);
     Employee mikeWilson = new Employee("Mike", "Wilson", 3245);
-    Employee billEnd = new Employee("Bill", "End", 78);
 
     ChainedHashtable ht = new ChainedHashtable();
 
@@ -15,9 +16,7 @@ public class Main{
     ht.put("Wilson", mikeWilson);
     ht.put("Smith", marySmith);
 
-    ht.printHashtable();
-
-    System.out.println("Retrieve key Wilson: " + ht.get("Wilson"));
+  //  ht.printHashtable();
 
     System.out.println("Retrieve key Smith: " + ht.get("Smith"));
 
